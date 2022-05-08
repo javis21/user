@@ -1,0 +1,54 @@
+
+
+      
+
+<div class="mt-5 py-5 px-5">
+    <table class="table">
+        <thead style="background-color: blue; color: white;">
+            <tr> 
+you 
+              <th scope="col">id</th>    
+            <th scope="col">main_question</th>
+            <th scope="col">sub_question</th>
+            <th scope="col">question</th>
+                <th scope="col">question_num</th>
+
+            <th scope="col">category</th>
+
+                        {{!-- <th scope="col">edit</th> --}}
+
+          
+            </tr>
+        </thead>
+        <tbody>
+            {{#each question}}
+            <tr>                      
+
+            <th scope="row">{{this.id}}</th>
+            <td>{{this.main_question}}</td>
+            <td>{{this.sub_question}}</td>
+            <td>{{this.question}}</td>
+             <td>{{this.question_num}}</td>
+
+            <td>{{this.category}}</td>
+
+            
+            <td>
+                <a href="/question/edit2/{{this.id}}" class="btn btn-sm btn-warning">edit</a>
+                <a href="/question/delete2/{{this.id}}" class="btn btn-sm btn-danger">delete</a>
+            </td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+
+    <a href="/question/add2" class="btn btn-sm btn-primary" style="item-align: center; !important">add</a>
+ <h1>Uplaod question to database </h1>
+      <form action="/question/upload2" enctype="multipart/form-data" method="post">
+        <input type="file" name="uploadfile" accept='csv' >
+        <input type="submit" value="Upload CSV">
+      </form> 
+
+</div>
+
+

@@ -1,0 +1,40 @@
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+ADD A question
+        </div>
+        <div class="card-body">
+                <form action="/question/add" method="POST">
+                    <div class="form-group">
+                        <label for="idname"> ID:[optional]</label>
+                        <input type="text" class="form-control" name="id" id="id" value="">
+                    </div> 
+                    <div class="form-group">
+                        <label for="name">main_question:</label>
+                        <input type="text" class="form-control" name="main_question" id="main_question" value="">
+                    </div>  
+                    <div class="form-group">
+                        <label for="question">sub_question:</label>
+                        <input type="text" class="form-control" name="sub_question" id="sub_question" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="question">question:</label>
+                        <input type="text" class="form-control" name="question" id="question" value="">
+                    </div>
+                     <div class="form-group">
+                        <label for="question">question_num:</label>
+                        <input type="text" class="form-control" name="question_num" id="question_num" value="">
+                    </div>
+                     <div class="form-group">
+                        <label for="question">category:</label>
+                        <input type="text" class="form-control" name="category" id="category" value="">
+                    </div>
+                   
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-sm btn-primary">save</button>
+                    </div>        
+                </form>
+           
+        </div>
+    </div>
+</div>

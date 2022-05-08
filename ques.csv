@@ -1,0 +1,142 @@
+id,main_question,sub_question,question,question_num,category
+,Privacy - Standard Questions,Accounting of Disclosures,Does the organization keep a record of information disclosures?,1,nist
+,,,"1
+Does the organization keep an accurate accounting of disclosures of information held in each system of records under its control that includes the Date, nature, and purpose of each disclosure of a record and name with the address of the person or agency to which the disclosure was made?",2,nist
+,,,"2
+Does the organization retain the accounting of disclosures for the life of the record or five years after the disclosure is made, whichever is longer?",3,nist
+,,,"3
+Does the organization make the accounting of disclosures available to the person named in the record upon request?",4,nist
+,,Authority to Collect,"4
+Does the organization determine and document the legal authority that permits the collection, use, maintenance, and sharing of PII, in general or in support of a specific program or information system need?",5,nist
+,,Complaint Management,"5
+Does the organization implement a process for receiving and responding to complaints, concerns, or questions from individuals about the organizational privacy practices?",6,nist
+,,Consent,Does the organization have a consent process for information collection?,7,nist
+,,,"6
+Does the organization provide means for individuals to authorize the collection, use, maintaining, and sharing of PII prior to its collection?",8,nist
+,,,"7
+Does the organization provide appropriate means for individuals to understand the consequences of decisions to approve or decline the authorization of the collection, use, dissemination, and retention of PII?",9,nist
+,,,"8
+Does the organization obtain consent from individuals prior to any new uses or disclosure of previously collected PII?
+
+",10,nist
+,,Data Integrity and Data Integrity Board,"10
+Does the organization document processes to ensure the integrity of PII through existing security controls?",11,nist
+,,,"11
+Does the organization establish a Data Integrity Board when appropriate to oversee organizational Computer Matching Agreements and to ensure that those agreements comply with the computer matching provisions of the Privacy Act?",12,nist
+,,Data Quality,"12
+Does the organization confirm upon collection or creation of PII, the accuracy, relevance, timeliness, and completeness of that information?",13,nist
+,,,"13
+Does the organization collect PII directly from the individual to the greatest extent practical?",14,nist
+,,,"14
+Does the organization check for, and correct, as necessary, any inaccurate or outdated PII used by its programs or systems?",15,nist
+,,,"15
+Does the organization issue guidelines ensuring and maximizing the quality, utility, objectivity, and integrity of disseminated information?",16,nist
+,,Data Retention and Disposal,"16
+Does the organization retain each collection of PII for company defined time period to fulfill the purpose(s) identified in the notice or as required by law?",17,nist
+,,,"17
+Does the organization dispose of, destroy, erase, and/or anonymize the PII, regardless of the method of storage, in accordance with a NARA-approved record retention schedule and in a manner that prevents loss, theft, misuse, or unauthorized access?
+
+",18,nist
+,,,"18
+Does the organization use company-defined techniques or methods to ensure secure deletion or destruction of PII (including originals, copies, and archived records)?",19,nist
+,,"Dissemination of Privacy Program Information
+","19
+Does the organization ensure that the public has access to information about its privacy activities and is able to communicate with its Senior Agency Official for Privacy (SAOP)/Chief Privacy Officer (CPO)?",20,nist
+,,,"20
+Does the organization ensure that its privacy practices are publicly available through organizational websites or otherwise?",21,nist
+,,Governance and Privacy Program,"21
+Does the organization appoint a Senior Agency Official for Privacy (SAOP) and a Chief Privacy Officer (CPO) who are accountable for developing, implementing, and maintaining an organization-wide governance and privacy program to ensure compliance with all applicable laws and regulations regarding the collection, use, maintenance, sharing, and disposal of PII by programs and information system?",22,nist
+,,,"22
+Does the organization monitor federal privacy laws and policy for changes that affect the privacy program?",23,nist
+,,,"23
+Does the organization allocate appropriate level of funding and resources to implement and operate the organization-wide privacy program?",24,nist
+,,,"24
+Does the organization develop a privacy plan for implementing applicable privacy controls, policies, and procedures?",25,nist
+,,,"25
+Does the organization develop, disseminate, and implement operational privacy policies and procedures that govern the appropriate privacy and security controls for programs, information systems, or technologies involving PII?
+
+",26,nist
+,,,"26
+Does the organization update the privacy plan, policies, and procedures according to company-defined time period or at least biennially?",27,nist
+,,Individual Access,"27
+Does the organization provide individuals the ability to have access to their PII maintained in its systems of records?",28,nist
+,,,"28
+Does the organization publish rules and regulations governing how individuals may request access to records maintained in a Privacy Act system of records?",29,nist
+,,,"29
+Does the organization publish access procedures in System of Records Notices (SORNs)?",30,nist
+,,,"30
+Does the organization adhere to Privacy Act requirements and OMB policies and guidance for the proper processing of Privacy Act requests?",31,nist
+,,Information Sharing With Third Parties,"31
+Does the organization share PII externally, only for the authorized purposes identified in the Privacy Act and/or described in its notices or for a purpose that is compatible with those purposes?",32,nist
+,,,"32
+Does the organization enter into Memoranda of Understanding, Memoranda of Agreement, Letters of Intent, Computer Matching Agreements, or similar agreements, with third parties that specifically describe the PII covered and specifically enumerate the purposes for which the PII may be used?",33,nist
+,,,"33
+Does the organization monitor, audit, and train its staff on the authorized sharing of PII with third parties and on the consequences of unauthorized use or sharing of PII?",34,nist
+,,,"34
+Does the organization evaluate any proposed new instances of sharing PII with third parties to assess whether the sharing is authorized and whether additional or new public notice is required?",35,nist
+,,Internal Use,"35
+Does the organization use PII internally only for the authorized purpose(s) identified in the Privacy Act and/or in public notices?",36,nist
+,,"Inventory of Personally Identifiable Information
+","36
+Does the organization establish, maintain, and update according to company policy, an inventory that contains a listing of all programs and information systems identified as collecting, using, maintaining, or sharing PII?",37,nist
+,,,"37
+Does the organization provide each update of the PII inventory to the CIO or information security official, according to company time intervals, to support the establishment of information security requirements for all new or modified information systems containing PII?",38,nist
+,,"Minimization of Personally Identifiable Information
+","38
+Does the organization identify the minimum PII elements that are relevant and necessary to accomplish the legally authorized purpose of collection?",39,nist
+,,,"39
+Does the organization limit the collection and retention of PII to the minimum elements identified for the purposes described in the notice and for which the individual has provided consent?",40,nist
+,,,"40
+Does the organization conduct an initial evaluation of PII holdings and establish and follow a schedule for regularly reviewing those holdings at least annually to ensure that only PII identified in the notice is collected and retained, and that the PII continues to be necessary to accomplish the legally authorized purpose?",41,nist
+,,"Minimization of PII Used In Testing, Training, and Research","41
+Does the organization develop policies and procedures that minimize the use of PII for testing, training, and research?",42,nist
+,,,"42
+Does the organization implement controls to protect PII used for testing, training, and research?",43,nist
+,,"Privacy Awareness and Training
+","43
+Does the organization develop, implement, and update comprehensive training and awareness for ensuring personnel understand privacy responsibilities and procedures?",44,nist
+,,,"44
+Does the organization administer basic privacy training at least annually and targeted, role-based privacy training for personnel having responsibility for PII or for activities that involve PII, and is this done at least annually?",45,nist
+,,,"45
+Does the organization ensure that personnel certify (manually or electronically) acceptance of responsibilities for privacy requirements at least annually?
+
+",46,nist
+,,"Privacy Impact and Risk Assessment
+","46
+Does the organization document and implement a privacy risk management process that assesses privacy risk to individuals resulting from collection, sharing, storing, transmitting, use, or disposal of PII?",47,nist
+,,,"47
+Does the organization conduct Privacy Impact Assessments (PIAs) for information systems, programs, or other activities that pose a privacy risk in accordance with applicable law, OMB policy, or any existing organizational policies and procedures?",48,nist
+,,Privacy Incident Response,"48
+Does the organization develop and implement a Privacy Incident Response Plan?",49,nist
+,,,"49
+Does the organization provide an organized and effective response to privacy incidents in accordance with the organizational Privacy Incident Response Plan?",50,nist
+,,Privacy Monitoring and Auditing,"50
+Does the organization monitor and audit privacy controls and internal privacy policy according to company-defined time interval to ensure effective implementation?",51,nist
+,,Privacy Notice,"51
+Does the organization provide effective notice to the public and to individuals regarding: (i) its activities that impact privacy, including its collection, use, sharing, safeguarding, maintenance, and disposal of PII; (ii) authority for collecting PII; (iii) the choices, if any, individuals may have regarding how the organization uses PII and the consequences of exercising or not exercising those choices; and (iv) the ability to access and have PII amended or corrected if necessary?",52,nist
+,,,"52
+Does the organization describe: (i) the PII the organization collects and the purpose(s) for which it collects that information; (ii) how the organization uses PII internally; (iii) whether the organization shares PII with external entities, the categories of those entities, and the purposes for such sharing; (iv) whether individuals have the ability to consent to specific uses or sharing of PII and how to exercise any such consent; (v) how individuals may obtain access to PII; and (vi) how the PII will be protected?",53,nist
+,,,"53
+Does the organization revise its public notices to reflect changes in practice or policy that affect PII or changes in its activities that impact privacy, before or soon after the change?",54,nist
+,,Privacy Reporting,"54
+Does the organization develop, distribute, and update reports to OMB, Congress, and other oversight bodies to demonstrate accountability with specific statutory and regulatory privacy program mandates, and to senior management and other personnel with responsibility for monitoring privacy program progress and compliance?",55,nist
+,,Privacy Requirements for Contractors and Service Providers,"55
+Does the organization establish privacy roles, responsibilities, and access requirements for contractors and service providers?",56,nist
+,,,"56
+Does the organization include privacy requirements in contracts and other acquisition-related documents?",57,nist
+,,Privacy-Enhanced System Design and Development,"57
+Does the organization design information systems to support privacy by automating privacy controls?",58,nist
+,,Purpose Specification,"58
+Does the organization document the purpose(s) for which PII is collected, used, maintained, and shared in its privacy notices?",59,nist
+,,Redress,"59
+Does the organization provide a process for individuals to have inaccurate PII maintained by the organization corrected or amended, as appropriate?
+
+",60,nist
+,,,"60
+Does the organization have an established process for disseminating corrections or amendments of the PII to other authorized users of the PII, such as external information-sharing partners and notifies affected individuals that their information has been corrected or amended?",61,nist
+,,System of Records Notices and Privacy Act Statements,"61
+Does the organization publish System of Records Notices (SORNs) in the Federal Register, subject to required oversight processes, for systems containing PII?",62,nist
+,,,"62
+Does the organization keep System of Records Notices (SORNs) current?",63,nist
+,,,"63
+Does the organization include Privacy Act Statements on its forms that collect PII, or on separate forms that can be retained by individuals, to provide additional formal notice to individuals from whom the information is being collected?",64,nist

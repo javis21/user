@@ -1,0 +1,24 @@
+*{
+	font-family:"Segoe UI",Arial,sans-serif
+}
+.header
+{
+  background: rgb(172,67,179);
+  background: linear-gradient(90deg, rgba(172,67,179,1) 0%, rgba(70,70,195,1) 54%, rgba(0,212,255,1) 100%);
+  color: #ffffff !important;
+}
+.icon-size
+{
+  font-size: 36px;
+  color: rgb(172,67,179);
+}
+.nav-link
+{
+  color: #fff !important;
+}
+.paragraph
+{
+  padding-top: 10px;
+  text-align: justify;
+  display: block;
+}

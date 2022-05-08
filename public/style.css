@@ -1,0 +1,48 @@
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 50px;
+}
+.bt{
+margin: 10px;
+margin-bottom: 40px;
+    background-color: rgba(45, 161, 255, 0.911);
+    color: white;
+    border: 1px solid black;
+
+  
+    padding: 12px 20px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+input[type=submit],button[type=submit] {
+    width: 15%;
+
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid black;
+
+}
+label{
+    width: 1px;
+    display:inline-block;
+    color: gray;
+  }
+  p{
+    padding-left: 40%;
+    text-align: left;
+  }
+
+  span.b {
+    display: inline-block;
+    width: 25%;
+    height: 20%;
+    padding: 5px;
+  }
+  input{
+    padding: 9px;
+    margin: 15px;
+    border: 2px solid black;
+    font-weight:bold;}

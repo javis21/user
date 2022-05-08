@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style3.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CMMC </h1>
+    Category 1 
+ <form   id="f"> 
+
+ <!-- Input from User -->
+            <div  class="question">
+
+
+{{!-- get data from base --}}
+
+    {{#each question}}
+     
+
+<h1> {{this.main_question}}</h1> 
+ <br>     
+              <span class="b">
+                <h2> {{this.sub_question}}</h2>
+            <p>     {{this.question}}  </p>
+             <input type="radio" id="QuestionA{{this.question_num}}" name="Q{{this.question_num}}"  value="yes" >
+             <label for="QuestionA{{this.question_num}}">yes</label>
+             <input type="radio" id="QuestionB{{this.question_num}}" name="Q{{this.question_num}}" value="no">
+             <label for="QuestionB{{this.question_num}}">no</label>
+             <input type="radio" id="QuestionC{{this.question_num}}" name="Q{{this.question_num}}"  value="idk"  checked>
+             <label for="QuestionC{{this.question_num}}">NAN</label>
+            </span>
+
+            {{!-- <select id="user" name="user" >
+              <option value="List of users" >List of users</option>
+
+              <option value="user1" >user1</option>
+              <option value="user2" >user2</option>
+              <option value="user3" >user3</option>
+            
+
+             
+
+
+            </select> --}}
+    
+            {{/each}}
+  
+
+            </div>
+          
+
+            
+              <br>   
+            
+
+
+ </form>
+
+<script>
+
+function send() {
+  var yes = 0;
+  var no = 0;
+  var idk = 0;
+
+
+  var form  = document.forms["f"];
+  var radioy = form.querySelectorAll("[type='radio'][value='yes']");
+  var radion = form.querySelectorAll("[type='radio'][value='no']");
+  var radioni = form.querySelectorAll("[type='radio'][value='idk']");
+
+  for(var i = 0; i < radioy.length; i++) {
+    if(radioy[i].checked) {
+      yes++;
+    }
+     if(radion[i].checked) {
+      no++;
+    }
+    if(radioni[i].checked) {
+      idk++;
+    }
+  }
+
+
+  document.getElementById("noo").innerHTML = no;
+  document.getElementById("yess").innerHTML = yes;
+  document.getElementById("idkk").innerHTML = idk;
+
+
+
+
+}
+
+
+</script>
+
+
+<form action="/assess/register" method="POST">
+  <!-- <p id="noo" name="noo"></p> -->
+  
+  <textarea readonly=readonly id="yess" name="yess"></textarea>
+  <textarea readonly=readonly id="idkk" name="idkk"></textarea>
+  <textarea readonly=readonly id="noo" name="noo"></textarea>
+  <input type="submit" value="send" onclick="send();">
+</form>
+</body>
+</html>

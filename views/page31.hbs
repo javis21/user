@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{!-- <link rel="stylesheet" href="/style1.css"> --}}
+    <title>Document</title>
+</head>
+<body>
+    <h1>Demographics</h1>
+ <form action="/auth2/register" method="POST"> 
+ 
+
+
+
+ <!-- Input from User -->
+
+             <label for="sector">Sector </label>
+            <!-- <input type="list" placeholder='List of industries' id="list"><br> -->
+
+            <select id="sector" name="sector" >
+              <option value="List of industries" >List of sectors</option>
+
+              <option value="healthcare" >chemical sector</option>
+              <option value="IT" >comercial sector</option>
+              <option value="servies" >enery sector</option>
+              <option value="robotics" >financial sector </option>
+              <option value="robotics" >food and agriculture sector</option>
+              <option value="robotics" >information security sector </option>
+
+              <option value="robotics" >water systens sector</option>
+
+
+            </select>
+            <br>
+            <label for="list">Industry </label>
+
+            <select id="list" name="industry" >
+                <option value="List of industries" >List of industries</option>
+  
+                <option value="healthcare" >healthcare</option>
+                <option value="IT" >IT</option>
+                <option value="servies" >servies</option>
+                <option value="robotics" >robotics</option>
+              </select>
+            <br>
+
+
+            <label for="protect">What is the gross value of the asset you are trying to protect? </label> 
+
+            
+            <select id="protect" name="protect" >
+                <option value="List of industries" >not selected </option>
+  
+                <option value="healthcare" > less than $100.000 </option>
+                <option value="IT" >less than $1000.000 </option>
+                <option value="servies" >less than $10.000.000 </option>
+                <option value="robotics" >more than $10.000.000 </option>
+              </select>
+            <br>
+
+
+            <label for="effort">What is the relative expected effort for this assessment? </label>
+
+            
+            <select id="effort" name="effort" >
+                <option value="List of industries" >not selected </option>
+  
+                <option value="healthcare" >small </option>
+                <option value="IT" >medium </option>
+                <option value="servies" >2 weeks </option>
+                <option value="robotics" >more than 2 weeks </option>
+              </select>
+            <br>
+
+
+            
+            
+            <label for="text">Name of Organization      </label>
+            <input type="text" placeholder='Text' id="text" name="org"><br>  
+
+            <label for="text">Business Unit/Agency     </label>
+            <input type="text" placeholder='Text' id="text" name="unit"><br>  
+
+            <br>
+
+
+            <label for="type">Organization Type </label>
+
+            
+            <select id="type" name="type" >
+                <option value="List of industries" >not selected </option>
+  
+                <option value="healthcare" >Industry </option>
+                <option value="IT" >federal entity </option>
+                <option value="servies" >SLTT</option>
+              </select>
+            <br>
+
+            <button type="submit">Next ></button>
+
+           <button>back </button>
+
+
+ 
+ </form>
+
+
+
+</body>
+</html>

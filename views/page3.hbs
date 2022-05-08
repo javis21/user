@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{!-- <link rel="stylesheet" href="/style2.css"> --}}
+
+    <title>Document</title>
+</head>
+<body>
+    Select Assessment: 
+    <br>
+
+ <input type="radio" name="as" id="nist">
+ <label for="nist">NIST xxx</label>
+
+
+
+
+<input type="radio" name="as" id="iso">
+<label for="iso">ISO xxxx</label>
+
+
+
+<input type="radio" name="as" id="cmmc">
+<label for="cmmc">CMMC xxx</label>
+
+
+    <br>
+
+
+<button onclick="category()">start ></button>
+
+<script>
+function category() {
+if(document.getElementById('nist').checked) {
+location.replace("page41")
+}else if(document.getElementById('iso').checked) {
+location.replace("page42")
+}else if(document.getElementById('cmmc').checked) {
+location.replace("page43")
+}
+}
+</script>
+</body>
+</html>

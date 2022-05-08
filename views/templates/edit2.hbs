@@ -1,0 +1,59 @@
+ {{!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../public/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+ <link href="../../public/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+ <link href="../../public/assets/css/app.min.css" rel="stylesheet" type="text/css" /> 
+    <link rel="stylesheet" href="..\..\public\style2.css">
+
+    <title>myapp</title>
+</head>
+<body> --}}
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            Edit questions oos
+        </div>
+        <div class="card-body">
+            {{#each question}}
+
+                <form action="/question/edit2/{{this.id}}" method="POST">
+                
+                   
+                    <div class="form-group">
+                        <label for="apellido">main_question</label>
+                        <input type="text" class="form-control" name="main_question" id="main_question" value="{{this.main_question}}">
+                    </div>  
+                    <div class="form-group">
+                        <label for="apellido">sub_question</label>
+                        <input type="text" class="form-control" name="sub_question" id="sub_question" value="{{this.sub_question}}">
+                    </div>  
+                    <div class="form-group">
+                        <label for="profesion">question:</label>
+                        <input type="text" class="form-control" name="question" id="question" value="{{this.question}}">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">question_num</label>
+                        <input type="text" class="form-control" name="question_num" id="question_num" value="{{this.question_num}}">
+                    </div>  
+                    <div class="form-group">
+                        <label for="apellido">category</label>
+                        <input type="text" class="form-control" name="category" id="category" value="{{this.category}}">
+                    </div>  
+                    
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-sm btn-success">save</button>
+                    </div>        
+                </form>
+            {{/each}}
+        </div>
+    </div>
+</div>
+
+
+{{!-- 
+</body>
+</html> --}}
